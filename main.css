@@ -33,7 +33,7 @@
 .slack-card-userName {
   font-weight: bold;
   margin: 0 !important;
-  margin-right: 8px;
+  margin-right: 8px !important;
 }
 
 .slack-card-postedAt {
