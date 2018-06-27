@@ -1,0 +1,53 @@
+.slack-card {
+  display: flex;
+  flex-direction: row;
+
+  padding: 16px;
+  margin: 16px 0;
+  max-width: 640px;
+
+  border: 1px solid #e1e8ed;
+  border-radius: 8px;
+  font-family: NotoSansJP, Slack-Lato, appleLogo, sans-serif;
+}
+
+.slack-card-avatar-col {
+  margin-right: 8px;
+  padding-top: 4px;
+}
+
+.slack-card-avatar {
+  border-radius: 3px;
+  height: 36px;
+  width: 36px;
+}
+
+.slack-card-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.slack-card-userName {
+  font-weight: bold;
+  margin: 0;
+  margin-right: 8px;
+}
+
+.slack-card-postedAt {
+  margin: 0;
+  color: #717274;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.slack-card-postedAt:hover {
+  text-decoration: underline;
+}
+
+.slack-card-message {
+  color: #2c2d30;
+  margin: 0;
+
+  line-height: 1.56668;
+}
